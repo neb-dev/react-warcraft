@@ -1,18 +1,13 @@
 import React from 'react';
-import logo from './assets/wc3_logo.png';
-import './App.css';
-import Layout from './components/Layout';
+
+import Layout from './components/Layout/Layout';
+import Ladder from './components/Ladder/Ladder';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Layout>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>
-            WC3
-          </h1>
-        </header>
+        <Ladder />
       </Layout>
     </div>
   );
