@@ -7,10 +7,7 @@ const player = (props) => {
     let player = props.player;
     return (
         <div className="Player">
-            <p>{ player.name }</p>
-            <p>{ player.race }</p>
-            <p>{ player.wins }</p>
-            <p>{ player.losses }</p>
+            <p>{ player.name } { player.race } { player.wins } { player.losses }</p>
         </div>
     );
 };
