@@ -1,5 +1,9 @@
 .Ladder {
-  width: 90%;
+  width: 60%;
   height: auto;
   margin: auto;
+}
+
+.Heading {
+  color: white;
 }

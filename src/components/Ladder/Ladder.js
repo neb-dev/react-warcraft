@@ -1,20 +1,20 @@
-import React from 'react';
+import React /*, { useState } */ from 'react';
 
 import './Ladder.css';
 import Player from './Player/Player';
+import { PLAYERS } from '../../assets/Players';
 
-const ladder = (props) => {
-  let player = {
-    name: 'Neb',
-    race: 'Orc',
-    wins: 1,
-    losses: 0
-  }
+const Ladder = (props) => {
+  // let [players, setPlayers] = useState([]);
+
+  const playerList = PLAYERS.map(player => <Player player={player} />);
+
   return (
     <div className="Ladder">
-      <Player player={player} />
+      <h1 className="Heading">Ladder</h1>
+      { playerList }
     </div>
   );
 };
 
-export default ladder;
+export default Ladder;
