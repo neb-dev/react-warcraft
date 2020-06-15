@@ -12,7 +12,7 @@ const layout = (props) => (
       </header>
       
       <main>
-        {props.children}
+        { props.children }
       </main>
     </div>
   </Auxiliary>
