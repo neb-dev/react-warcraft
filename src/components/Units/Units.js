@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Units.css';
 // import Unit from './Unit/Unit';
+import { UNITS } from '../../assets/Units';
 
 const Units = (props) => {
   return (
@@ -9,7 +10,8 @@ const Units = (props) => {
       <div className="Human">
         <h2>Human</h2>
         <ul>
-          <li>Peasant</li>
+        {UNITS.map(unit => <li>{unit.title}</li>)}
+          {/* <li>Peasant</li>
           <li>Footman</li>
           <li>Knight</li>
           <li>Rifleman</li>
@@ -21,7 +23,7 @@ const Units = (props) => {
           <li>Sorceress</li>
           <li>Siege Engine</li>
           <li>Spellbreaker</li>
-          <li>Dragonhawk</li>
+          <li>Dragonhawk</li> */}
         </ul>
       </div>
 
