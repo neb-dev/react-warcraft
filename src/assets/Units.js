@@ -102,5 +102,9 @@ export const UNITS = [
     food: 3,
     attack: 19,
     race: 'Human'
+  },
+  {
+    title: 'Peon',
+    race: 'Orc'
   }
 ];
