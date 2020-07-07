@@ -238,5 +238,141 @@ export const UNITS = [
     food: 0,
     attack: 12,
     race: 'Orc'
+  },
+  {
+    title: 'Wisp',
+    hitPoints: 120,
+    gold: 60,
+    food: 1,
+    attack: 0,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Archer',
+    hitPoints: 245,
+    gold: 130,
+    food: 2,
+    attack: 17,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Huntress',
+    hitPoints: 600,
+    gold: 195,
+    food: 3,
+    attack: 17,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Glaive Thrower',
+    hitPoints: 300,
+    gold: 210,
+    food: 3,
+    attack: 44.5,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Dryad',
+    hitPoints: 435,
+    gold: 145,
+    food: 3,
+    attack: 18,
+    race: 'Night Elf'
+  },
+  {
+    title: 'DoC Druid Form',
+    hitPoints: 430,
+    gold: 255,
+    food: 4,
+    attack: 20.5,
+    race: 'Night Elf'
+  },
+  {
+    title: 'DoC Bear Form',
+    hitPoints: 960,
+    gold: 0,
+    food: 4,
+    attack: 36.5,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Mountain Giant',
+    hitPoints: 1600,
+    gold: 425,
+    food: 7,
+    attack: 34,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Hippogryph',
+    hitPoints: 525,
+    gold: 160,
+    food: 2,
+    attack: 53.5,
+    race: 'Night Elf'
+  },
+  {
+    title: 'DoT Druid Form',
+    hitPoints: 300,
+    gold: 135,
+    food: 2,
+    attack: 12,
+    race: 'Night Elf'
+  },
+  {
+    title: 'DoT Crow Form',
+    hitPoints: 300,
+    gold: 0,
+    food: 2,
+    attack: 38,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Faerie Dragon',
+    hitPoints: 450,
+    gold: 155,
+    food: 2,
+    attack: 15,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Hyppogryph Rider',
+    hitPoints: 765,
+    gold: 0,
+    food: 4,
+    attack: 17,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Chimera',
+    hitPoints: 1000,
+    gold: 330,
+    food: 5,
+    attack: 75,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Treant',
+    hitPoints: 300,
+    gold: 0,
+    food: 0,
+    attack: 16,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Avatar of Vengeance',
+    hitPoints: 1200,
+    gold: 0,
+    food: 0,
+    attack: 30.5,
+    race: 'Night Elf'
+  },
+  {
+    title: 'Spirit of Vengeance',
+    hitPoints: 500,
+    gold: 0,
+    food: 0,
+    attack: 16,
+    race: 'Night Elf'
   }
 ];
