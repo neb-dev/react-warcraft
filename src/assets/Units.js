@@ -374,5 +374,149 @@ export const UNITS = [
     food: 0,
     attack: 16,
     race: 'Night Elf'
+  },
+  {
+    title: 'Acolyte',
+    hitPoints: 220,
+    gold: 75,
+    food: 1,
+    attack: 9.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Ghoul',
+    hitPoints: 340,
+    gold: 120,
+    food: 2,
+    attack: 13,
+    race: 'Undead'
+  },
+  {
+    title: 'Crypt Fiend',
+    hitPoints: 550,
+    gold: 215,
+    food: 3,
+    attack: 28.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Gargoyle',
+    hitPoints: 410,
+    gold: 185,
+    food: 2,
+    attack: 19.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Abomination',
+    hitPoints: 1175,
+    gold: 240,
+    food: 4,
+    attack: 36,
+    race: 'Undead'
+  },
+  {
+    title: 'Meat Wagon',
+    hitPoints: 380,
+    gold: 230,
+    food: 4,
+    attack: 79.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Necromancer',
+    hitPoints: 305,
+    gold: 145,
+    food: 2,
+    attack: 8.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Banshee',
+    hitPoints: 285,
+    gold: 155,
+    food: 2,
+    attack: 11,
+    race: 'Undead'
+  },
+  {
+    title: 'Frost Wyrm',
+    hitPoints: 1350,
+    gold: 385,
+    food: 7,
+    attack: 104,
+    race: 'Undead'
+  },
+  {
+    title: 'Shade',
+    hitPoints: 125,
+    gold: 0,
+    food: 1,
+    attack: 0,
+    race: 'Undead'
+  },
+  {
+    title: 'Skeleton Warrior',
+    hitPoints: 180,
+    gold: 0,
+    food: 0,
+    attack: 14.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Skeletal Mage',
+    hitPoints: 230,
+    gold: 0,
+    food: 0,
+    attack: 11.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Infernal',
+    hitPoints: 1500,
+    gold: 0,
+    food: 0,
+    attack: 54.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Carrion Beetle',
+    hitPoints: 140,
+    gold: 0,
+    food: 0,
+    attack: 8.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Carrion Beetle 2',
+    hitPoints: 275,
+    gold: 0,
+    food: 0,
+    attack: 16.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Carrion Beetle 3',
+    hitPoints: 410,
+    gold: 0,
+    food: 0,
+    attack: 24.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Obsidian Statue',
+    hitPoints: 500,
+    gold: 200,
+    food: 3,
+    attack: 7.5,
+    race: 'Undead'
+  },
+  {
+    title: 'Destroyer',
+    hitPoints: 900,
+    gold: 0,
+    food: 5,
+    attack: 20,
+    race: 'Undead'
   }
 ];
