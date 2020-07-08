@@ -10,33 +10,29 @@ const Units = (props) => {
       <div className="Human">
         <h2>Human</h2>
         <ul>
-        {UNITS.map(unit => <li>{unit.title}</li>)}
-          {/* <li>Peasant</li>
-          <li>Footman</li>
-          <li>Knight</li>
-          <li>Rifleman</li>
-          <li>Motar Team</li>
-          <li>Gyrocopter</li>
-          <li>Flying Machine</li>
-          <li>Gryphon Rider</li>
-          <li>Priest</li>
-          <li>Sorceress</li>
-          <li>Siege Engine</li>
-          <li>Spellbreaker</li>
-          <li>Dragonhawk</li> */}
+        {UNITS.filter(unit => unit.race === 'Human').map(unit => <li>{unit.title}</li>)}
         </ul>
       </div>
 
       <div className="Orc">
         <h2>Orc</h2>
+        <ul>
+        {UNITS.filter(unit => unit.race === 'Orc').map(unit => <li>{unit.title}</li>)}
+        </ul>
       </div>
 
       <div className="Night-Elf">
         <h2>Night Elf</h2>
+        <ul>
+        {UNITS.filter(unit => unit.race === 'Night Elf').map(unit => <li>{unit.title}</li>)}
+        </ul>
       </div>
 
       <div className="Undead">
         <h2>Undead</h2>
+        <ul>
+        {UNITS.filter(unit => unit.race === 'Undead').map(unit => <li>{unit.title}</li>)}
+        </ul>
       </div>
     </div>
   );
