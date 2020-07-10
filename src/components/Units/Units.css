@@ -4,4 +4,13 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    color: white;
+}
+
+.Units ul {
+    padding: 0;
+}
+
+.Units ul li {
+    list-style-type: none;
 }
