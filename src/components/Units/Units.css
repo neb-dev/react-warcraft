@@ -3,14 +3,39 @@
     height: auto;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     color: white;
 }
 
 .Units ul {
     padding: 0;
+    margin-top: 0;
 }
 
 .Units ul li {
     list-style-type: none;
+    background-color: #2c2c2c;
+    padding: 20px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.Units ul li:last-child {
+    border-bottom: none;
+}
+
+.Human h2 {
+    color: blue;
+}
+
+.Orc h2 {
+    color: red;
+}
+
+.Night-Elf h2 {
+    color: darkgreen;
+}
+
+.Undead h2 {
+    color: purple;
 }
