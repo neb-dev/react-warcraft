@@ -1,7 +1,9 @@
 import React from 'react';
 
+import './NavItem.css';
+
 const NavItem = (props) => (
-  <li><a href="" />Nav Item</li>
+  <li className="NavItem"><a href="" />Nav Item</li>
 );
 
 export default NavItem;

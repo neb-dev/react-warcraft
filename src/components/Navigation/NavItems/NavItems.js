@@ -1,9 +1,10 @@
 import React from 'react';
 
+import './NavItems.css';
+
 const NavItems = (props) => (
-  <ul>
-    <li>Ladder</li>
-    <li>Units</li>
+  <ul className="NavItems">
+    
   </ul>
 );
 
