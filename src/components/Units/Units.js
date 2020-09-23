@@ -3,6 +3,13 @@ import React from 'react';
 import './Units.css';
 // import Unit from './Unit/Unit';
 import { UNITS } from '../../assets/Units';
+import Modal from '../UI/Modal/Modal';
+
+function renderModal(unit) {
+  return (
+    <Modal>unit.title</Modal>
+  )
+}
 
 const Units = (props) => {
   return (
@@ -10,7 +17,7 @@ const Units = (props) => {
       <div className="Human">
         <h2>Human</h2>
         <ul>
-        {UNITS.filter(unit => unit.race === 'Human').map(unit => <li>{unit.title}</li>)}
+        {UNITS.filter(unit => unit.race === 'Human').map(unit => <li onClick={renderModal.bind(null, unit)}>{unit.title}</li>)}
         </ul>
       </div>
 
